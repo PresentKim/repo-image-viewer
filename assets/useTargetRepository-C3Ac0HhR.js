@@ -1,0 +1,1 @@
+import{u as i,b as g,r as a}from"./index-C75ToSQY.js";function $(){const{owner:e,repo:o,"*":r}=i(),t=g(),n=a.useMemo(()=>({owner:e??"",repo:o??"",ref:r??""}),[e,o,r]),u=a.useCallback((p,c,s)=>{t(`/${p}/${c}${s?`/${s}`:""}`)},[t]);return[n,u]}export{$ as u};
