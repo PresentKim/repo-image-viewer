@@ -1,0 +1,1 @@
+import{b as i,f as g,r as a}from"./index-n52vN01w.js";function m(){const{owner:e,repo:o,"*":r}=i(),t=g(),n=a.useMemo(()=>({owner:e??"",repo:o??"",ref:r??""}),[e,o,r]),p=a.useCallback((u,c,s)=>{t(`/${u}/${c}${s?`/${s}`:""}`)},[t]);return[n,p]}export{m as u};
